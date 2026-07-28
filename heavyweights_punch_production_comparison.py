@@ -14,7 +14,6 @@ st.write(
 @st.cache_data
 def load_data():
     df = pd.read_csv("heavyweight_data.csv")
-    # Clean headers: remove spaces and normalize characters
     df.columns = df.columns.str.strip()
     return df
 
@@ -24,7 +23,6 @@ try:
     # 3. Sidebar Selection Controls
     st.sidebar.header("Data Filter Configurations")
     
-    # Explicit mapping ensuring keys match clean CSV column names exactly
     metric_options = {
         "Punches_Thrown": "Total Punches Thrown",
         "Punches_Landed": "Total Punches Landed",
@@ -39,10 +37,15 @@ try:
     )
 
     all_fighters = sorted(df["Fighter"].unique())
+    
+    # Clean fallback logic: Pre-select the Big Three if they exist in your data pool
+    preferred_defaults = ["Oleksandr Usyk", "Tyson Fury", "Anthony Joshua"]
+    available_defaults = [f for f in preferred_defaults if f in all_fighters]
+
     selected_fighters = st.sidebar.multiselect(
         "Choose Heavyweights to Compare:",
         options=all_fighters,
-        default=all_fighters[:3] if len(all_fighters) >= 3 else all_fighters
+        default=available_defaults if available_defaults else all_fighters[:3]
     )
 
     if selected_fighters:
@@ -71,7 +74,6 @@ try:
             title=f"Timeline Analysis: {metric_options[selected_metric]}"
         )
         
-        # Keep X-axis cleanly spaced with integer values
         fig.update_layout(xaxis=dict(tickmode="linear", tick0=1, dtick=1))
         st.plotly_chart(fig, use_container_width=True)
         
@@ -81,7 +83,6 @@ try:
             
             display_df = filtered_df.sort_values(["Fighter", "Bout_Sequence"])
             
-            # Clean safely extracts the columns now that headers are normalized
             readable_df = display_df[[
                 "Fighter", "Bout_Sequence", "Opponent", 
                 "Punches_Thrown", "Punches_Landed", 
