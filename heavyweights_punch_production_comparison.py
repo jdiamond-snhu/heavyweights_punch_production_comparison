@@ -10,10 +10,13 @@ st.write(
     " Fight sequence charts career appearances sequentially based on available verified records."
 )
 
-# 2. Cached Data Input
+# 2. Cached Data Input with Column Cleaning
 @st.cache_data
 def load_data():
-    return pd.read_csv("heavyweight_data.csv")
+    df = pd.read_csv("heavyweight_data.csv")
+    # Clean headers: remove spaces and normalize characters
+    df.columns = df.columns.str.strip()
+    return df
 
 try:
     df = load_data()
@@ -21,13 +24,14 @@ try:
     # 3. Sidebar Selection Controls
     st.sidebar.header("Data Filter Configurations")
     
-    # Let the user choose what metric to display on the Line Graph
+    # Explicit mapping ensuring keys match clean CSV column names exactly
     metric_options = {
         "Punches_Thrown": "Total Punches Thrown",
         "Punches_Landed": "Total Punches Landed",
         "Power_Punches_Landed": "Power Punches Landed",
         "Power_Punches_Thrown": "Power Punches Thrown"
     }
+    
     selected_metric = st.sidebar.selectbox(
         "Select Graph Analysis Metric:",
         options=list(metric_options.keys()),
@@ -38,7 +42,7 @@ try:
     selected_fighters = st.sidebar.multiselect(
         "Choose Heavyweights to Compare:",
         options=all_fighters,
-        default=["Tyson Fury", "Anthony Joshua", "Oleksandr Usyk"]
+        default=all_fighters[:3] if len(all_fighters) >= 3 else all_fighters
     )
 
     if selected_fighters:
@@ -77,7 +81,7 @@ try:
             
             display_df = filtered_df.sort_values(["Fighter", "Bout_Sequence"])
             
-            # Clean column mapping for high presentation readability
+            # Clean safely extracts the columns now that headers are normalized
             readable_df = display_df[[
                 "Fighter", "Bout_Sequence", "Opponent", 
                 "Punches_Thrown", "Punches_Landed", 
