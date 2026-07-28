@@ -1,169 +1,108 @@
-Fighter,Bout_Sequence,Opponent,Punches_Thrown
-Oleksandr Usyk,1,Chazz Witherspoon,347
-Oleksandr Usyk,2,Derek Chisora,398
-Oleksandr Usyk,3,Anthony Joshua I,529
-Oleksandr Usyk,4,Anthony Joshua II,492
-Oleksandr Usyk,5,Daniel Dubois I,351
-Oleksandr Usyk,6,Tyson Fury I,407
-Oleksandr Usyk,7,Tyson Fury II,423
-Oleksandr Usyk,8,Tony Bellew,312
-Oleksandr Usyk,9,Murat Gassiev,252
-Oleksandr Usyk,10,Mairis Briedis,190
-Oleksandr Usyk,11,Thabiso Mchunu,245
-Oleksandr Usyk,12,Krzysztof Glowacki,310
-Oleksandr Usyk,13,Michael Hunter,295
-Oleksandr Usyk,14,Marco Huck,335
-Tyson Fury,1,Tom Schwarz,142
-Tyson Fury,2,Otto Wallin,634
-Tyson Fury,3,Deontay Wilder II,267
-Tyson Fury,4,Deontay Wilder III,385
-Tyson Fury,5,Dillian Whyte,246
-Tyson Fury,6,Dereck Chisora III,481
-Tyson Fury,7,Francis Ngannou,223
-Tyson Fury,8,Oleksandr Usyk I,496
-Tyson Fury,9,Oleksandr Usyk II,509
-Tyson Fury,10,Arslanbek Makhmudov,400
-Tyson Fury,11,Wladimir Klitschko,371
-Tyson Fury,12,Sefer Seferi,112
-Tyson Fury,13,Francesco Pianeta,230
-Tyson Fury,14,Deontay Wilder I,430
-Anthony Joshua,1,Kubrat Pulev,320
-Anthony Joshua,2,Oleksandr Usyk I,440
-Anthony Joshua,3,Oleksandr Usyk II,492
-Anthony Joshua,4,Jermaine Franklin,361
-Anthony Joshua,5,Robert Helenius,215
-Anthony Joshua,6,Otto Wallin,130
-Anthony Joshua,7,Francis Ngannou,35
-Anthony Joshua,8,Daniel Dubois,117
-Anthony Joshua,9,Jake Paul,146
-Anthony Joshua,10,Kristian Prenga,45
-Anthony Joshua,11,Andy Ruiz I,210
-Anthony Joshua,12,Andy Ruiz II,290
-Anthony Joshua,13,Alexander Povetkin,180
-Anthony Joshua,14,Joseph Parker,315
-Daniel Dubois,1,Joe Joyce,405
-Daniel Dubois,2,Bogdan Dinu,45
-Daniel Dubois,3,Joe Cusumano,35
-Daniel Dubois,4,Trevor Bryan,115
-Daniel Dubois,5,Kevin Lerena,82
-Daniel Dubois,6,Oleksandr Usyk I,290
-Daniel Dubois,7,Jarrell Miller,312
-Daniel Dubois,8,Filip Hrgovic,254
-Daniel Dubois,9,Anthony Joshua,117
-Daniel Dubois,10,Oleksandr Usyk II,179
-Daniel Dubois,11,Kyotaro Fujimoto,42
-Daniel Dubois,12,Ebenezer Tetteh,28
-Daniel Dubois,13,Nathan Gorman,85
-Daniel Dubois,14,Richard Lartey,65
-Agit Kabayel,1,Evgenios Lazaridis,280
-Agit Kabayel,2,Kevin Johnson,320
-Agit Kabayel,3,Pavel Sour,110
-Agit Kabayel,4,Agron Smakici,145
-Agit Kabayel,5,Arslanbek Makhmudov,195
-Agit Kabayel,6,Frank Sanchez,240
-Agit Kabayel,7,Zhilei Zhang,285
-Agit Kabayel,8,Damian Knyba,310
-Agit Kabayel,9,Dereck Chisora,340
-Agit Kabayel,10,Andriy Rudenko,295
-Agit Kabayel,11,Miljan Rovcanin,210
-Agit Kabayel,12,Herve Hubeaux,230
-Agit Kabayel,13,Christian Lewandowski,140
-Agit Kabayel,14,Lawrence Jones,65
-Fabio Wardley,1,Richard Lartey,45
-Fabio Wardley,2,Nick Webb,38
-Fabio Wardley,3,Daniel Martz,52
-Fabio Wardley,4,Chris Healey,60
-Fabio Wardley,5,Nathan Gorman,85
-Fabio Wardley,6,Michael Polite Coffie,112
-Fabio Wardley,7,David Adeleye,190
-Fabio Wardley,8,Frazer Clarke I,454
-Fabio Wardley,9,Frazer Clarke II,65
-Fabio Wardley,10,Justis Huni,330
-Fabio Wardley,11,Joseph Parker,448
-Fabio Wardley,12,Simon Vallily,48
-Fabio Wardley,13,Dennis Biolleti,32
-Fabio Wardley,14,Mariano Ruben Diaz Strunz,40
-Filip Hrgović,1,Alexandre Kartozia,30
-Filip Hrgović,2,Rydell Booker,120
-Filip Hrgović,3,Marko Radonjic,75
-Filip Hrgović,4,Emir Ahmatovic,62
-Filip Hrgović,5,Zhilei Zhang,385
-Filip Hrgović,6,Demsey McKean,298
-Filip Hrgović,7,Mark de Mori,22
-Filip Hrgović,8,Daniel Dubois,254
-Filip Hrgović,9,Eric Molina,48
-Filip Hrgović,10,Mario Heredia,62
-Filip Hrgović,11,Gregory Corbin,15
-Filip Hrgović,12,Kevin Johnson,140
-Filip Hrgović,13,Amir Mansour,85
-Filip Hrgović,14,Filip Rychly,12
-Moses Itauma,1,Tomas Lavan,42
-Moses Itauma,2,Ramon Ibarra,15
-Moses Itauma,3,Kostiantyn Dovbyshchenko,64
-Moses Itauma,4,Kevin Nicolas Espindola,48
-Moses Itauma,5,Amine Boucetta,35
-Moses Itauma,6,Istvan Bernath,22
-Moses Itauma,7,Michal Boloz,18
-Moses Itauma,8,Dan Garber,28
-Moses Itauma,9,Ilja Mezencev,34
-Moses Itauma,10,Mariusz Wach,88
-Moses Itauma,11,Demsey McKean,114
-Moses Itauma,12,Dillian Whyte,38
-Moses Itauma,13,Jermaine Franklin,112
-Moses Itauma,14,Solomon Dacres,145
-Frank Sánchez,1,Brian Howard,140
-Frank Sánchez,2,Nagy Aguilera,165
-Frank Sánchez,3,Efe Ajagba,312
-Frank Sánchez,4,Christian Hammer,280
-Frank Sánchez,5,Daniel Martz,42
-Frank Sánchez,6,Carlos Negron,210
-Frank Sánchez,7,Scott Alexander,65
-Frank Sánchez,8,Junior Fa,185
-Frank Sánchez,9,Agit Kabayel,240
-Frank Sánchez,10,Richard Torrez Jr,92
-Frank Sánchez,11,Joey Dawejko,190
-Frank Sánchez,12,Victor Emilio Ramirez,55
-Frank Sánchez,13,Julian Fernandez,98
-Frank Sánchez,14,Jack Mulowayi,140
-Efe Ajagba,1,Jonathan Rice,215
-Efe Ajagba,2,Brian Howard,85
-Efe Ajagba,3,Frank Sánchez,312
-Efe Ajagba,4,Jozsef Darmos,42
-Efe Ajagba,5,Stephan Shaw,290
-Efe Ajagba,6,Zhilei Zhang,325
-Efe Ajagba,7,Joe Goodall,178
-Efe Ajagba,8,Guido Vianello,340
-Efe Ajagba,9,Razvan Cojanu,145
-Efe Ajagba,10,Iago Kiladze,180
-Efe Ajagba,11,Ali Eren Demirezen,240
-Efe Ajagba,12,Amir Mansour,35
-Efe Ajagba,13,Michael Wallisch,48
-Efe Ajagba,14,Nick Jones,22
-Murat Gassiev,1,Nuri Seferi,25
-Murat Gassiev,2,Michael Wallisch,85
-Murat Gassiev,3,Carlouse Welch,32
-Murat Gassiev,4,Mike Balogun,48
-Murat Gassiev,5,Otto Wallin,265
-Murat Gassiev,6,Oleksandr Usyk,210
-Murat Gassiev,7,Denis Lebedev,340
-Murat Gassiev,8,Krzysztof Wlodarczyk,145
-Murat Gassiev,9,Yuniel Dorticos,412
-Murat Gassiev,10,Jordan Shimmell,28
-Murat Gassiev,11,Isiah Thomas,110
-Murat Gassiev,12,Felix Cora Jr,185
-Murat Gassiev,13,Leon Harth,210
-Murat Gassiev,14,Kem Ljungquist,195
-Justis Huni,1,Christian Ndzie Tsoye,390
-Justis Huni,2,Paul Gallen,412
-Justis Huni,3,Joseph Goodall,480
-Justis Huni,4,Kiki Toa Leutele,440
-Justis Huni,5,Andrew Tabiti,425
-Justis Huni,6,Kevin Lerena,460
-Justis Huni,7,Fabio Wardley,330
-Justis Huni,8,Faiga Opelu,185
-Justis Huni,9,Marcelo Nascimento,112
-Justis Huni,10,Arsene Fosso,240
-Justis Huni,11,Lucas Browne,190
-Justis Huni,12,Zhilei Zhang,385
-Justis Huni,13,Efe Ajagba,410
-Justis Huni,14,Martin Bakole,435
+Fighter,Bout_Sequence,Opponent,Punches_Thrown,Punches_Landed,Power_Punches_Landed,Power_Punches_Thrown
+Oleksandr Usyk,1,Chazz Witherspoon,347,142,94,180
+Oleksandr Usyk,2,Derek Chisora,398,131,84,212
+Oleksandr Usyk,3,Anthony Joshua I,529,148,96,218
+Oleksandr Usyk,4,Anthony Joshua II,492,170,111,232
+Oleksandr Usyk,5,Daniel Dubois I,351,88,52,126
+Oleksandr Usyk,6,Tyson Fury I,407,157,117,218
+Oleksandr Usyk,7,Tyson Fury II,423,179,106,201
+Tyson Fury,1,Tom Schwarz,142,45,33,68
+Tyson Fury,2,Otto Wallin,634,179,127,334
+Tyson Fury,3,Deontay Wilder II,267,82,58,160
+Tyson Fury,4,Deontay Wilder III,385,150,114,260
+Tyson Fury,5,Dillian Whyte,246,76,47,114
+Tyson Fury,6,Dereck Chisora III,481,215,145,280
+Tyson Fury,7,Francis Ngannou,223,71,32,86
+Tyson Fury,8,Oleksandr Usyk I,496,157,95,210
+Tyson Fury,9,Oleksandr Usyk II,509,144,100,219
+Tyson Fury,10,Arslanbek Makhmudov,400,132,82,185
+Anthony Joshua,1,Kubrat Pulev,320,110,84,174
+Anthony Joshua,2,Oleksandr Usyk I,440,123,71,192
+Anthony Joshua,3,Oleksandr Usyk II,492,124,85,212
+Anthony Joshua,4,Jermaine Franklin,361,117,72,175
+Anthony Joshua,5,Robert Helenius,215,74,48,95
+Anthony Joshua,6,Otto Wallin,130,51,35,68
+Anthony Joshua,7,Francis Ngannou,35,11,8,12
+Anthony Joshua,8,Daniel Dubois,117,32,24,65
+Anthony Joshua,9,Jake Paul,146,55,41,85
+Anthony Joshua,10,Kristian Prenga,45,18,14,25
+Daniel Dubois,1,Joe Joyce,405,112,68,180
+Daniel Dubois,2,Bogdan Dinu,45,15,11,20
+Daniel Dubois,3,Joe Cusumano,35,14,12,18
+Daniel Dubois,4,Trevor Bryan,115,46,38,72
+Daniel Dubois,5,Kevin Lerena,82,28,21,44
+Daniel Dubois,6,Oleksandr Usyk I,290,47,28,95
+Daniel Dubois,7,Jarrell Miller,312,115,82,190
+Daniel Dubois,8,Filip Hrgovic,254,89,64,142
+Daniel Dubois,9,Anthony Joshua,117,47,38,75
+Daniel Dubois,10,Oleksandr Usyk II,179,55,41,92
+Agit Kabayel,1,Evgenios Lazaridis,280,92,54,120
+Agit Kabayel,2,Kevin Johnson,320,104,58,145
+Agit Kabayel,3,Pavel Sour,110,42,35,60
+Agit Kabayel,4,Agron Smakici,145,58,47,88
+Agit Kabayel,5,Arslanbek Makhmudov,195,74,55,102
+Agit Kabayel,6,Frank Sanchez,240,91,62,118
+Agit Kabayel,7,Zhilei Zhang,285,98,66,134
+Agit Kabayel,8,Damian Knyba,310,112,74,152
+Fabio Wardley,1,Richard Lartey,45,18,14,26
+Fabio Wardley,2,Nick Webb,38,14,12,20
+Fabio Wardley,3,Daniel Martz,52,22,18,32
+Fabio Wardley,4,Chris Healey,60,25,19,38
+Fabio Wardley,5,Nathan Gorman,85,36,28,54
+Fabio Wardley,6,Michael Polite Coffie,112,48,34,70
+Fabio Wardley,7,David Adeleye,190,72,51,110
+Fabio Wardley,8,Frazer Clarke I,454,151,102,245
+Fabio Wardley,9,Frazer Clarke II,65,28,22,38
+Fabio Wardley,10,Justis Huni,330,112,74,165
+Fabio Wardley,11,Joseph Parker,448,138,89,224
+Filip Hrgović,1,Alexandre Kartozia,30,12,10,18
+Filip Hrgović,2,Rydell Booker,120,48,36,75
+Filip Hrgović,3,Marko Radonjic,75,31,25,48
+Filip Hrgović,4,Emir Ahmatovic,62,24,18,35
+Filip Hrgović,5,Zhilei Zhang,385,110,73,195
+Filip Hrgović,6,Demsey McKean,298,92,61,148
+Filip Hrgović,7,Mark de Mori,22,9,8,14
+Filip Hrgović,8,Daniel Dubois,254,82,55,130
+Moses Itauma,1,Tomas Lavan,42,15,11,22
+Moses Itauma,2,Ramon Ibarra,15,6,5,8
+Moses Itauma,3,Kostiantyn Dovbyshchenko,64,24,17,36
+Moses Itauma,4,Kevin Nicolas Espindola,48,18,12,24
+Moses Itauma,5,Amine Boucetta,35,14,11,18
+Moses Itauma,6,Istvan Bernath,22,9,8,12
+Moses Itauma,7,Michal Boloz,18,8,7,10
+Moses Itauma,8,Dan Garber,28,11,9,15
+Moses Itauma,9,Ilja Mezencev,34,14,11,18
+Moses Itauma,10,Mariusz Wach,88,34,25,46
+Moses Itauma,11,Demsey McKean,114,46,32,64
+Moses Itauma,12,Dillian Whyte,38,12,9,16
+Moses Itauma,13,Jermaine Franklin,112,41,28,62
+Moses Itauma,14,Solomon Dacres,145,56,38,84
+Frank Sánchez,1,Brian Howard,140,46,31,68
+Frank Sánchez,2,Nagy Aguilera,165,54,34,80
+Frank Sánchez,3,Efe Ajagba,312,94,52,130
+Frank Sánchez,4,Christian Hammer,280,86,51,124
+Frank Sánchez,5,Daniel Martz,42,16,12,22
+Frank Sánchez,6,Carlos Negron,210,72,48,98
+Frank Sánchez,7,Scott Alexander,65,24,18,34
+Frank Sánchez,8,Junior Fa,185,68,44,92
+Frank Sánchez,9,Agit Kabayel,240,78,46,110
+Efe Ajagba,1,Jonathan Rice,215,62,38,102
+Efe Ajagba,2,Brian Howard,85,28,19,44
+Efe Ajagba,3,Frank Sánchez,312,81,42,122
+Efe Ajagba,4,Jozsef Darmos,42,15,12,22
+Efe Ajagba,5,Stephan Shaw,290,92,54,140
+Efe Ajagba,6,Zhilei Zhang,325,101,62,154
+Efe Ajagba,7,Joe Goodall,178,64,48,92
+Efe Ajagba,8,Guido Vianello,340,112,71,175
+Murat Gassiev,1,Nuri Seferi,25,9,8,14
+Murat Gassiev,2,Michael Wallisch,85,32,24,48
+Murat Gassiev,3,Carlouse Welch,32,12,10,15
+Murat Gassiev,4,Mike Balogun,48,16,14,24
+Murat Gassiev,5,Otto Wallin,265,68,42,110
+Justis Huni,1,Christian Ndzie Tsoye,390,132,84,180
+Justis Huni,2,Paul Gallen,412,145,96,210
+Justis Huni,3,Joseph Goodall,480,168,112,234
+Justis Huni,4,Kiki Toa Leutele,440,151,98,218
+Justis Huni,5,Andrew Tabiti,425,149,94,205
+Justis Huni,6,Kevin Lerena,460,162,108,240
+Justis Huni,7,Fabio Wardley,330,118,76,168
