@@ -68,7 +68,7 @@ try:
             color_discrete_map=custom_color_map,
             markers=True,
             labels={
-                "Bout_Sequence": "Sequence ←Past to Most Recent→", 
+                "Bout_Sequence": "← Past to Most Recent →", 
                 selected_metric: metric_options[selected_metric]
             },
             title=f"Timeline Analysis: {metric_options[selected_metric]}"
