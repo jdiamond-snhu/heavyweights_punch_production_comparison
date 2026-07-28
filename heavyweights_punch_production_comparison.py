@@ -7,7 +7,7 @@ st.set_page_config(page_title="Heavyweight Punch Production App", layout="wide")
 st.title("🥊 Heavyweight Punch Production: Latest 14 Outings")
 st.write(
     "Track total punches thrown over each fighter's **latest 14 consecutive bouts**."
-    " Fight 1 represents their 14th most recent fight, while Fight 14 is their absolute latest performance."
+    " Fight 14 is their latest performance."
 )
 
 # 2. Data Caching
@@ -30,7 +30,7 @@ try:
     selected_fighters = st.sidebar.multiselect(
         "Choose Heavyweights to Display:",
         options=sorted(df_pool["Fighter"].unique()),
-        default=["Tyson Fury", "Anthony Joshua", "Oleksandr Usyk", "Moses Itauma"]
+        default=["Tyson Fury", "Anthony Joshua", "Oleksandr Usyk"]
     )
 
     if selected_fighters:
