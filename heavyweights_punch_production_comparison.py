@@ -8,7 +8,7 @@ st.title("🥊 Heavyweight Punch Production Matrix")
 st.write(
     "Analyze and compare historical punch records across elite heavyweight bouts. "
     "The dots on each line represent individual, completed professional fights."
-st.caption("Designed by Jeff Diamond-Radecki, 2026." 
+st.caption("Designed by Jeff Diamond-Radecki, 2026.") 
 )
 
 # 2. Cached Data Input with Column Cleaning
