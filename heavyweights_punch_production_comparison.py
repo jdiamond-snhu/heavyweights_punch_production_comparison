@@ -5,10 +5,10 @@ import plotly.express as px
 # 1. App Configuration
 st.set_page_config(page_title="Heavyweight Punch Analytics Engine", layout="wide")
 st.title("🥊 Heavyweight Punch Production Matrix")
+st.caption("Designed by Jeff Diamond-Radecki, 2026.")
 st.write(
     "Analyze and compare historical punch records across elite heavyweight bouts. "
     "The dots on each line represent individual, completed professional fights."
-st.caption("Designed by Jeff Diamond-Radecki, 2026.") 
 )
 
 # 2. Cached Data Input with Column Cleaning
