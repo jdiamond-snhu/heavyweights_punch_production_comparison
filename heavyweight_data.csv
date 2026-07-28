@@ -6,13 +6,13 @@ Oleksandr Usyk,4,Anthony Joshua II,492
 Oleksandr Usyk,5,Daniel Dubois I,351
 Oleksandr Usyk,6,Tyson Fury I,407
 Oleksandr Usyk,7,Tyson Fury II,423
-Oleksandr Usyk,8,Rico Verhoeven,410
-Oleksandr Usyk,9,Daniel Dubois II,149
-Oleksandr Usyk,10,Stay Busy Defense,380
-Oleksandr Usyk,11,Mandatory Bout,415
-Oleksandr Usyk,12,Unification Clash,435
-Oleksandr Usyk,13,Championship Defense,412
-Oleksandr Usyk,14,Grand Finale,440
+Oleksandr Usyk,8,Tony Bellew,312
+Oleksandr Usyk,9,Murat Gassiev,252
+Oleksandr Usyk,10,Mairis Briedis,190
+Oleksandr Usyk,11,Thabiso Mchunu,245
+Oleksandr Usyk,12,Krzysztof Glowacki,310
+Oleksandr Usyk,13,Michael Hunter,295
+Oleksandr Usyk,14,Marco Huck,335
 Tyson Fury,1,Tom Schwarz,142
 Tyson Fury,2,Otto Wallin,634
 Tyson Fury,3,Deontay Wilder II,267
@@ -23,10 +23,10 @@ Tyson Fury,7,Francis Ngannou,223
 Tyson Fury,8,Oleksandr Usyk I,496
 Tyson Fury,9,Oleksandr Usyk II,509
 Tyson Fury,10,Arslanbek Makhmudov,400
-Tyson Fury,11,Contender Fight,430
-Tyson Fury,12,Heavyweight Showcase,450
-Tyson Fury,13,Trilogy Match,465
-Tyson Fury,14,Legacy Event,485
+Tyson Fury,11,Wladimir Klitschko,371
+Tyson Fury,12,Sefer Seferi,112
+Tyson Fury,13,Francesco Pianeta,230
+Tyson Fury,14,Deontay Wilder I,430
 Anthony Joshua,1,Kubrat Pulev,320
 Anthony Joshua,2,Oleksandr Usyk I,440
 Anthony Joshua,3,Oleksandr Usyk II,492
@@ -37,10 +37,10 @@ Anthony Joshua,7,Francis Ngannou,35
 Anthony Joshua,8,Daniel Dubois,117
 Anthony Joshua,9,Jake Paul,146
 Anthony Joshua,10,Kristian Prenga,45
-Anthony Joshua,11,Comeback Showcase,180
-Anthony Joshua,12,Strikeforce Event,110
-Anthony Joshua,13,Title Eliminator,290
-Anthony Joshua,14,Main Event PPV,195
+Anthony Joshua,11,Andy Ruiz I,210
+Anthony Joshua,12,Andy Ruiz II,290
+Anthony Joshua,13,Alexander Povetkin,180
+Anthony Joshua,14,Joseph Parker,315
 Daniel Dubois,1,Joe Joyce,405
 Daniel Dubois,2,Bogdan Dinu,45
 Daniel Dubois,3,Joe Cusumano,35
@@ -51,10 +51,10 @@ Daniel Dubois,7,Jarrell Miller,312
 Daniel Dubois,8,Filip Hrgovic,254
 Daniel Dubois,9,Anthony Joshua,117
 Daniel Dubois,10,Oleksandr Usyk II,179
-Daniel Dubois,11,Rebound Fight,210
-Daniel Dubois,12,Contender Bout,140
-Daniel Dubois,13,Championship Clash,220
-Daniel Dubois,14,Wembley Main Event,165
+Daniel Dubois,11,Kyotaro Fujimoto,42
+Daniel Dubois,12,Ebenezer Tetteh,28
+Daniel Dubois,13,Nathan Gorman,85
+Daniel Dubois,14,Richard Lartey,65
 Agit Kabayel,1,Evgenios Lazaridis,280
 Agit Kabayel,2,Kevin Johnson,320
 Agit Kabayel,3,Pavel Sour,110
@@ -63,12 +63,12 @@ Agit Kabayel,5,Arslanbek Makhmudov,195
 Agit Kabayel,6,Frank Sanchez,240
 Agit Kabayel,7,Zhilei Zhang,285
 Agit Kabayel,8,Damian Knyba,310
-Agit Kabayel,9,European Title,335
-Agit Kabayel,10,Riyadh Undercard,295
-Agit Kabayel,11,Top Rank Feature,310
-Agit Kabayel,12,Heavyweight Eliminator,300
-Agit Kabayel,13,Championship Stage,340
-Agit Kabayel,14,Global PPV Event,325
+Agit Kabayel,9,Dereck Chisora,340
+Agit Kabayel,10,Andriy Rudenko,295
+Agit Kabayel,11,Miljan Rovcanin,210
+Agit Kabayel,12,Herve Hubeaux,230
+Agit Kabayel,13,Christian Lewandowski,140
+Agit Kabayel,14,Lawrence Jones,65
 Fabio Wardley,1,Richard Lartey,45
 Fabio Wardley,2,Nick Webb,38
 Fabio Wardley,3,Daniel Martz,52
@@ -80,9 +80,9 @@ Fabio Wardley,8,Frazer Clarke I,454
 Fabio Wardley,9,Frazer Clarke II,65
 Fabio Wardley,10,Justis Huni,330
 Fabio Wardley,11,Joseph Parker,448
-Fabio Wardley,12,British Title,280
-Fabio Wardley,13,Domestic Blockbuster,310
-Fabio Wardley,14,PPV Co-Main,345
+Fabio Wardley,12,Simon Vallily,48
+Fabio Wardley,13,Dennis Biolleti,32
+Fabio Wardley,14,Mariano Ruben Diaz Strunz,40
 Filip Hrgović,1,Alexandre Kartozia,30
 Filip Hrgović,2,Rydell Booker,120
 Filip Hrgović,3,Marko Radonjic,75
@@ -91,12 +91,12 @@ Filip Hrgović,5,Zhilei Zhang,385
 Filip Hrgović,6,Demsey McKean,298
 Filip Hrgović,7,Mark de Mori,22
 Filip Hrgović,8,Daniel Dubois,254
-Filip Hrgović,9,Recovery Fight,180
-Filip Hrgović,10,European Showcase,210
-Filip Hrgović,11,Riyadh Season,140
-Filip Hrgović,12,Eliminator Tourney,290
-Filip Hrgović,13,Contender Match,230
-Filip Hrgović,14,Comeback Undercard,195
+Filip Hrgović,9,Eric Molina,48
+Filip Hrgović,10,Mario Heredia,62
+Filip Hrgović,11,Gregory Corbin,15
+Filip Hrgović,12,Kevin Johnson,140
+Filip Hrgović,13,Amir Mansour,85
+Filip Hrgović,14,Filip Rychly,12
 Moses Itauma,1,Tomas Lavan,42
 Moses Itauma,2,Ramon Ibarra,15
 Moses Itauma,3,Kostiantyn Dovbyshchenko,64
@@ -108,9 +108,9 @@ Moses Itauma,8,Dan Garber,28
 Moses Itauma,9,Ilja Mezencev,34
 Moses Itauma,10,Mariusz Wach,88
 Moses Itauma,11,Demsey McKean,114
-Moses Itauma,12,Prospect Feature,95
-Moses Itauma,13,Dillian Whyte,38
-Moses Itauma,14,Jermaine Franklin,112
+Moses Itauma,12,Dillian Whyte,38
+Moses Itauma,13,Jermaine Franklin,112
+Moses Itauma,14,Solomon Dacres,145
 Frank Sánchez,1,Brian Howard,140
 Frank Sánchez,2,Nagy Aguilera,165
 Frank Sánchez,3,Efe Ajagba,312
@@ -121,10 +121,10 @@ Frank Sánchez,7,Scott Alexander,65
 Frank Sánchez,8,Junior Fa,185
 Frank Sánchez,9,Agit Kabayel,240
 Frank Sánchez,10,Richard Torrez Jr,92
-Frank Sánchez,11,PBC Showcase,220
-Frank Sánchez,12,Underground Event,175
-Frank Sánchez,13,Contender Clash,240
-Frank Sánchez,14,Rebound Main Event,265
+Frank Sánchez,11,Joey Dawejko,190
+Frank Sánchez,12,Victor Emilio Ramirez,55
+Frank Sánchez,13,Julian Fernandez,98
+Frank Sánchez,14,Jack Mulowayi,140
 Efe Ajagba,1,Jonathan Rice,215
 Efe Ajagba,2,Brian Howard,85
 Efe Ajagba,3,Frank Sánchez,312
@@ -133,26 +133,26 @@ Efe Ajagba,5,Stephan Shaw,290
 Efe Ajagba,6,Zhilei Zhang,325
 Efe Ajagba,7,Joe Goodall,178
 Efe Ajagba,8,Guido Vianello,340
-Efe Ajagba,9,Top Rank Main Event,260
-Efe Ajagba,10,ESPN Feature Fight,190
-Efe Ajagba,11,Heavyweight Tournament,215
-Efe Ajagba,12,Title Contender,310
-Efe Ajagba,13,Co-Feature Showcase,280
-Efe Ajagba,14,Vegas Boxing Card,295
+Efe Ajagba,9,Razvan Cojanu,145
+Efe Ajagba,10,Iago Kiladze,180
+Efe Ajagba,11,Ali Eren Demirezen,240
+Efe Ajagba,12,Amir Mansour,35
+Efe Ajagba,13,Michael Wallisch,48
+Efe Ajagba,14,Nick Jones,22
 Murat Gassiev,1,Nuri Seferi,25
 Murat Gassiev,2,Michael Wallisch,85
 Murat Gassiev,3,Carlouse Welch,32
 Murat Gassiev,4,Mike Balogun,48
 Murat Gassiev,5,Otto Wallin,265
-Murat Gassiev,6,Cruiser Rebound,190
-Murat Gassiev,7,Eurasian Title,210
-Murat Gassiev,8,Russian Showcase,145
-Murat Gassiev,9,Heavyweight Prospect,180
-Murat Gassiev,10,Veteran Test,235
-Murat Gassiev,11,Riyadh Undercard,190
-Murat Gassiev,12,Title Eliminator,250
-Murat Gassiev,13,Main Event Feature,220
-Murat Gassiev,14,Comeback Card,240
+Murat Gassiev,6,Oleksandr Usyk,210
+Murat Gassiev,7,Denis Lebedev,340
+Murat Gassiev,8,Krzysztof Wlodarczyk,145
+Murat Gassiev,9,Yuniel Dorticos,412
+Murat Gassiev,10,Jordan Shimmell,28
+Murat Gassiev,11,Isiah Thomas,110
+Murat Gassiev,12,Felix Cora Jr,185
+Murat Gassiev,13,Leon Harth,210
+Murat Gassiev,14,Kem Ljungquist,195
 Justis Huni,1,Christian Ndzie Tsoye,390
 Justis Huni,2,Paul Gallen,412
 Justis Huni,3,Joseph Goodall,480
@@ -160,10 +160,10 @@ Justis Huni,4,Kiki Toa Leutele,440
 Justis Huni,5,Andrew Tabiti,425
 Justis Huni,6,Kevin Lerena,460
 Justis Huni,7,Fabio Wardley,330
-Justis Huni,8,Australian Title,450
-Justis Huni,9,Matchroom Feature,490
-Justis Huni,10,Global Showcase,430
-Justis Huni,11,Oceania Eliminator,465
-Justis Huni,12,Contender Series,440
-Justis Huni,13,Commonwealth Defense,480
-Justis Huni,14,Main Event Stage,510
+Justis Huni,8,Faiga Opelu,185
+Justis Huni,9,Marcelo Nascimento,112
+Justis Huni,10,Arsene Fosso,240
+Justis Huni,11,Lucas Browne,190
+Justis Huni,12,Zhilei Zhang,385
+Justis Huni,13,Efe Ajagba,410
+Justis Huni,14,Martin Bakole,435
