@@ -61,15 +61,15 @@ try:
 
         # 5. Build Dynamic Plotly Analytics Graph
     # Updated Plotly Line Graph with hover tooltips
-fig = px.line(
-    filtered_df,
-    x="Bout_Sequence",
-    y=selected_metric,
-    color="Fighter",
-    color_discrete_map=custom_color_map,
-    markers=True,
-    hover_data=["Opponent", "Punches_Thrown", "Punches_Landed"], # Shows details on hover!
-    labels={
+    fig = px.line(
+        filtered_df,
+        x="Bout_Sequence",
+        y=selected_metric,
+        color="Fighter",
+        color_discrete_map=custom_color_map,
+        markers=True,
+        hover_data=["Opponent", "Punches_Thrown", "Punches_Landed"], # Shows details on hover!
+        labels={
         "Bout_Sequence": "Bout Scale (Earliest to Most Recent Logged)", 
         selected_metric: metric_options[selected_metric]
     },
