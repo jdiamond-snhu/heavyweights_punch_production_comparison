@@ -6,14 +6,15 @@ import plotly.express as px
 st.set_page_config(page_title="Heavyweight Punch Analytics Engine", layout="wide")
 st.title("🥊 Heavyweight Punch Production Matrix")
 st.write(
-    "Analyze and compare historical punch records across elite heavyweight bouts."
-    " Fight sequence charts career appearances sequentially based on available verified records."
+    "Analyze and compare historical punch records across elite heavyweight bouts. "
+    "The dots on each line represent individual, completed professional fights."
 )
 
 # 2. Cached Data Input with Column Cleaning
 @st.cache_data
 def load_data():
     df = pd.read_csv("heavyweight_data.csv")
+    # Clean headers programmatically to strip accidental spaces
     df.columns = df.columns.str.strip()
     return df
 
@@ -38,7 +39,7 @@ try:
 
     all_fighters = sorted(df["Fighter"].unique())
     
-    # Clean fallback logic: Pre-select the Big Three if they exist in your data pool
+    # Pre-select the Big Three default heavyweights if they exist in the CSV pool
     preferred_defaults = ["Oleksandr Usyk", "Tyson Fury", "Anthony Joshua"]
     available_defaults = [f for f in preferred_defaults if f in all_fighters]
 
@@ -55,27 +56,25 @@ try:
         custom_color_map = {}
         for fighter in selected_fighters:
             if fighter == "Tyson Fury":
-                custom_color_map[fighter] = "#00FF00"  # Distinct Green
+                custom_color_map[fighter] = "#00FF00"
             else:
-                custom_color_map[fighter] = None       # standard theme assignments
+                custom_color_map[fighter] = None
 
-        # 5. Build Dynamic Plotly Analytics Graph
-    # Updated Plotly Line Graph with hover tooltips
-    fig = px.line(
-        filtered_df,
-        x="Bout_Sequence",
-        y=selected_metric,
-        color="Fighter",
-        color_discrete_map=custom_color_map,
-        markers=True,
-        hover_data=["Opponent", "Punches_Thrown", "Punches_Landed"], # Shows details on hover!
-        labels={
-        "Bout_Sequence": "Bout Scale (Earliest to Most Recent Logged)", 
-        selected_metric: metric_options[selected_metric]
-    },
-    title=f"Timeline Analysis: {metric_options[selected_metric]}"
-)
-
+        # 5. Build Dynamic Plotly Analytics Graph with Dot Interaction
+        fig = px.line(
+            filtered_df,
+            x="Bout_Sequence",
+            y=selected_metric,
+            color="Fighter",
+            color_discrete_map=custom_color_map,
+            markers=True,
+            hover_data=["Opponent", "Punches_Thrown", "Punches_Landed"],
+            labels={
+                "Bout_Sequence": "Bout Scale (Earliest to Most Recent Logged)", 
+                selected_metric: metric_options[selected_metric]
+            },
+            title=f"Timeline Analysis: {metric_options[selected_metric]}"
+        )
         
         fig.update_layout(xaxis=dict(tickmode="linear", tick0=1, dtick=1))
         st.plotly_chart(fig, use_container_width=True)
