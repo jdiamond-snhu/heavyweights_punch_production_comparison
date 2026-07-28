@@ -60,19 +60,22 @@ try:
                 custom_color_map[fighter] = None       # standard theme assignments
 
         # 5. Build Dynamic Plotly Analytics Graph
-        fig = px.line(
-            filtered_df,
-            x="Bout_Sequence",
-            y=selected_metric,
-            color="Fighter",
-            color_discrete_map=custom_color_map,
-            markers=True,
-            labels={
-                "Bout_Sequence": "← Past to Most Recent →", 
-                selected_metric: metric_options[selected_metric]
-            },
-            title=f"Timeline Analysis: {metric_options[selected_metric]}"
-        )
+    # Updated Plotly Line Graph with hover tooltips
+fig = px.line(
+    filtered_df,
+    x="Bout_Sequence",
+    y=selected_metric,
+    color="Fighter",
+    color_discrete_map=custom_color_map,
+    markers=True,
+    hover_data=["Opponent", "Punches_Thrown", "Punches_Landed"], # Shows details on hover!
+    labels={
+        "Bout_Sequence": "Bout Scale (Earliest to Most Recent Logged)", 
+        selected_metric: metric_options[selected_metric]
+    },
+    title=f"Timeline Analysis: {metric_options[selected_metric]}"
+)
+
         
         fig.update_layout(xaxis=dict(tickmode="linear", tick0=1, dtick=1))
         st.plotly_chart(fig, use_container_width=True)
